@@ -58,21 +58,29 @@ Feel free to modify or expand the tech stack section based on the specific techn
 To get a local copy up and running, follow these steps.
 Choose the directory on your local machine where you want to copy project. For example:
 
-> cd /home/user/name-of-your-directory
+```
+cd /home/user/name-of-your-directory
+```
 
 Clone the project using one of the options.
 
 Using SSH-key:
 
-> git clone git@github.com:romans-adi/Calculator.git
+```
+git clone git@github.com:romans-adi/Calculator.git
+```
 
 Using HTTPS:
 
-> git clone https://github.com/romans-adi/Calculator.git
+```
+git clone https://github.com/romans-adi/Calculator.git
+```
 
 You can also create the new directory just adding the name of it in the end of command. For example:
 
-> git clone https://github.com/romans-adi/Calculator.git c-calc
+```
+git clone https://github.com/romans-adi/Calculator.git c-calc
+```
 
 ### Installation <a name="installation"></a>
 
@@ -80,7 +88,9 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-> git clone https://github.com/romans-adi/Calculator.git
+```
+git clone https://github.com/romans-adi/Calculator.git
+```
 
 2. To run this code, you only need a standard C compiler and runtime environment, which are typically pre-installed on most systems.
 In case they are not available, you can manually install GCC for Linux or MinGW for Windows, which are widely used C compilers.
@@ -88,14 +98,23 @@ In case they are not available, you can manually install GCC for Linux or MinGW 
 ### Usage <a name="usage"></a>
 
 To compile this code, open the command prompt in your terminal and run:
-```gcc calculator.c```
+```
+gcc calculator.c
+```
 You can also specify a custom name for the executable by using:
-```gcc calculator.c -o calc```
+```
+gcc calculator.c -o calc
+```
 
 If you used the default name for the compiled file, to execute the compiled app, run :
-```./a.out```
- Or, if you specified a custom name during compilation, run:
- ```./calc```
+```
+./a.out
+```
+
+Or, if you specified a custom name during compilation, run:
+```
+./calc
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
